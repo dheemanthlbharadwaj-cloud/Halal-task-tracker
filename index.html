@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Halal Corporation Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Halal Corporation Task Tracker</h1>
+    
+    <div class="members-section">
+      <h2>Members</h2>
+      <form id="member-form">
+        <input type="text" id="member-input" placeholder="Add member name" required>
+        <button type="submit">Add Member</button>
+      </form>
+      <ul id="members-list"></ul>
+    </div>
+    
+    <div class="milestones-section">
+      <h2>Milestones</h2>
+      <form id="milestone-form">
+        <input type="text" id="milestone-input" placeholder="Add milestone" required>
+        <button type="submit">Add Milestone</button>
+      </form>
+      <ul id="milestones-list"></ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
